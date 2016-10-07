@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script src=jquery213.js></script><script src=xblog.js></script>
+<link rel=stylesheet type=text/css href=xblog.css>
+<style>
+	
+/*##############################################################*/
+
+.container #rightspan{ 
+	/*float:right 
+	right:0px;*/
+	position :relative;
+	left:10%;
+	}
+
+#rightspan{
+		background-color:white;
+		font-size: 25px;
+		width: 40%;
+		text-align: right;
+		
+	   
+	  /* background-color: rgba(255, 255, 255, 0.9);*/
+}
+
+#leftspan{
+		background-color:white;
+		font-size: 25px;
+		width: 40%;
+		text-align: left;
+	   
+	  /* background-color: rgba(255, 255, 255, 0.9);*/
+}
+	#results{
+		margin: 15px 15px 15px 15px;
+			
+}
+ .logo{
+	/*position: absolute;
+		z-index: -1;	*/
+		position:relative;
+		left: 0px;
+		top:15px;
+		width:50px;
+		height:50px;
+}
+
+
+
+
+#textarea,#textinput,#buttoninput{
+	width: 300px;
+	width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 7px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+</style>
+
+<script type="text/javascript">
+
+
+ </script> 
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+<form id='myform'  action="blogWrite.sh" target="SHOW">
+
+
+
+<div class="authors">
+	<div id='title'><h1>Comments</h1></div>
+
+</div>
+ 
+
+<span>
+	
+	
+
+
+</span>
+
+<input    type="textbox" name="searchitems" value="" id="textinput" placeholder="Enter Your Name..." >
+<br>
+ <textarea id=textarea name="tbox" rows="4" cols="50" placeholder="Enter Your Comment">
+</textarea> 
+<br>
+
+
+<button id="buttoninput">Go!</button>
+
+</form>
+
+
+<br>
+
+	 
+
+</div>
+
+
+</body>
+</html>
+

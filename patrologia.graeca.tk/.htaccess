@@ -1,0 +1,20 @@
+# Follow symbolic links.
+#Options +FollowSymLinks
+
+# Prevent directory listings
+#  Options All -Indexes
+
+Options All
+DirectoryIndex index.html    
+order deny,allow
+Require all granted
+
+AddHandler cgi-script .sh
+Options +ExecCGI
+
+ 
+
+IndexIgnore *.bak.html
+
+
+Redirect /index.html http://patrologia.graeca.tk/hta/

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<script src=jquery213.js></script><script src=tooltip.js></script>
+<link rel=stylesheet type=text/css href=xtooltip.css>
+<style>
+	
+	input {
+    
+}
+	
+	
+	 
+input[type=text] {
+       width: 40%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 7px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    
+    float:left;
+   
+    
+    
+}
+
+input[type=text]:focus {
+    width: 40%;
+    
+}
+
+.button {
+        background-color: white;
+          border: 2px solid #ccc;
+    border-radius: 4px;
+         box-sizing: border-box;
+           padding: 7px 12px 9px 12px;
+          font-size: 20px;
+          
+            float:left;
+width:10%;
+}
+
+#select{
+	   background-color: white;
+          border: 2px solid #ccc;
+    border-radius: 4px;
+         box-sizing: border-box;
+           padding: 7px 12px 9px 12px;
+          font-size: 20px;
+	float:left;
+    clear:both;
+	  width: 40%;
+}
+
+#leftspan{
+	   background-color:white;
+           padding: 7px 12px 9px 0px;
+          font-size: 40px;
+	float:left;
+    clear:both;
+	  width: 100%;
+	   text-align: left;
+}
+
+.right {
+    
+    right: 0px;
+    width: 40%;
+    position:absolute;
+    padding: 10px;
+}
+
+.container{
+	
+width:70%	
+	
+	
+}
+</style>
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+	<div class="right">
+	<div id='title'>
+
+</div>
+	</div>
+ 
+<div class="container">
+<form id='myform'  action="front.sh">
+<span id='leftspan'>MIGNE PATROLOGIA GRAECA<img id='keyboardimg' src="key.png" alt="key.png" ></span>
+
+<span>
+<select id='select' style='height:50px;font-size:12pt' name=book>
+<option  value='./db/Agathias Scholasticus Myrinaeus,Constantinopolitanus_PG 88/'>./db/Agathias Scholasticus Myrinaeus,Constantinopolitanus_PG 88/</option>
+<option  value='./db/Alexander Lycopolitanus_PG 18/'>./db/Alexander Lycopolitanus_PG 18/</option>
+<option  value='./db/Alexander Monachus_PG 87c/'>./db/Alexander Monachus_PG 87c/</option>
+<option  value='./db/Ammonius_PG 85/'>./db/Ammonius_PG 85/</option>
+<option  value='./db/Amphilochius Iconiensis_PG 39/'>./db/Amphilochius Iconiensis_PG 39/</option>
+<option  value='./db/Anna Komnena_PG 131/'>./db/Anna Komnena_PG 131/</option>
+</select>
+
+
+
+</span>
+
+<input    type="text" name="searchitems" value="" id="input" placeholder="Search in Greek atonic..put a word at least with three characters" >
+
+
+<button class="button">Go!</button>
+</form>
+</div>
+
+
+
+
+</body>
+</html>
+

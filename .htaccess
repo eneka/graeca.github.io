@@ -1,0 +1,19 @@
+# Follow symbolic links.
+#Options +FollowSymLinks
+
+# Prevent directory listings
+# 
+
+Options All
+DirectoryIndex index.html      
+order deny,allow
+Require all granted
+
+AddHandler cgi-script .sh
+Options +ExecCGI
+
+ 
+
+# IndexIgnore *
+# Options All -Indexes
+ Options All -Indexes

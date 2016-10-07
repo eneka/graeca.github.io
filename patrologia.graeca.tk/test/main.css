@@ -1,0 +1,152 @@
+.container #rightspan{ 
+	/*float:right 
+	right:0px;*/
+	position :relative;
+	left:10%;
+	}
+#leftspan{
+		background-color:white;
+		font-size: 25px;
+		width: 100%;
+		text-align: left;
+	   
+	  /* background-color: rgba(255, 255, 255, 0.9);*/
+}
+#rightspan{
+		background-color:white;
+		font-size: 15px;
+		width: 40%;
+		text-align: right;
+		
+	   
+	  /* background-color: rgba(255, 255, 255, 0.9);*/
+}
+
+
+
+.container{	
+		width:60%;
+		width:1300px;
+		height:auto;
+		overflow:hidden;
+		float:left;
+	 
+}
+
+.authors{	
+		width:30%;
+		width:350px;
+		height:auto;
+		float:right;
+		overflow:hidden;
+		padding: 10px 0px 0px 15px;
+		border-left: thick double #ff0000;
+	
+}
+
+
+
+
+.author{	
+ 
+	font-size:15px;
+	margin: 10px 10px 0px 15px;
+
+ 
+
+}
+ .logo{
+	/*position: absolute;
+		z-index: -1;	*/
+		position:relative;
+		left: 0px;
+		top:15px;
+		width:50px;
+		height:50px;
+}
+
+.key{
+	position: absolute;
+	position:relative;
+    left: 0px;
+    top: 21px;
+    width:50px;
+    height:50px;
+}
+
+
+
+#buttoninput{
+	width:40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 7px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 5px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	
+}
+#textinput,#selectinput{
+	width: 300px;
+	width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 7px 12px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+#selectspan{
+	width: 100%;
+	
+}
+
+
+a, a:visited{
+
+     color: blue;
+     color: gray;
+}
+
+a:hover {
+    color: red;
+    color: black;
+    font-size: 16px;
+}
+.keyboard {
+	background-color: white; 
+	position:fixed; /* it make the overlay have fixed position even you scroll the page */
+	 /*top:0; width:90%;
+	position:fixed;top:60%;let make the overlay pushed up, to the top of the screen. 
+	  */
+	z-index: 999;
+	bottom:0px;
+	right:0; /* you probably know what it this visibility: hidden; */
+	border-style: solid;
+	width:30%;
+	}
+	
+.char {
+	cursor:pointer;
+	background-color: white; 
+	background-color:#E6E6FA;
+	padding: 5px 5px 5px 5px;
+	/*border-style: solid;*/
+	 z-index: 9;
+	margin: 5px 5px 5px 5px;
+	
+	}
+	
+#results{
+		margin: 15px 15px 15px 15px;
+			
+}
