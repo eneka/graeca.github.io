@@ -3,7 +3,7 @@
 		$('.authors').load('authorslist.sh');
 		$('#selectspan').load('authorsselect.sh');
 		$('#framekeyboard').load('keyboard.sh');
-		//$('#numofsearches').load('remoteaddr/remoteaddr.sh');	 
+		$('#numofsearches').load('remoteaddr/remoteaddr.sh');	 
 		
 
 		
