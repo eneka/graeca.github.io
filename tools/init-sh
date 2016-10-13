@@ -1,0 +1,27 @@
+
+
+adduser ain 
+
+usermod -aG sudo username
+
+
+sudo apt install apache2
+
+sudo chmod -R 777 /etc/apache2
+
+mkdir -p /home/ain/Dropbox/graeca.github.io.git/patrologia.graeca.tk
+
+mkdir -p /home/ain/Dropbox/graeca.github.io.git/school.graeca.tk
+
+#copy the apache folder conf
+sudo service apache2 restart
+
+#untill here ok
+
+
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+
+~/.dropbox-dist/dropboxd
+
+env - LANG="$LANG" ~/.dropbox-dist/dropboxd &
+sudo chmod -R 777 Dropbox
